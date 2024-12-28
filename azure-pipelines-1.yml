@@ -1,0 +1,14 @@
+trigger:
+- main  # Trigger pipeline on changes to the "main" branch
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  displayName: 'Use Python 3.x'
+  
+   pool:
+
+   Azure Dev ops 
+
